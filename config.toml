@@ -8,17 +8,14 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"
-excluded-patches = "'Custom branding YouTube name' 'Custom branding icon Revancify blue'"
+included-patches = "'Custom branding YouTube name' 'Custom branding icon Revancify blue' 'Custom package name'"
 included-patches = "'Add splash animation' 'MaterialYou'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music]
 build-mode = "both"
-excluded-patches = "'Custom branding Music name' 'Custom branding icon Revancify blue'"
+included-patches = "'Custom branding Music name' 'Custom branding icon Revancify blue'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 apkmirror-arch = "both"
 
-[Reddit]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
